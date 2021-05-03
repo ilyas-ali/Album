@@ -1,0 +1,11 @@
+{% extends 'hello/base.html' %}
+
+{% block body %}
+
+    <h1>WELCOME TO ALBUMS</h1>
+
+    <h4>Click below to See all the Albums</h4>
+
+    <a href={% url 'hello:index' %}>CLICK HERE</a>
+
+{% endblock %}
